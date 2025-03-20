@@ -11,17 +11,28 @@ Este projeto é um gerador de QR Codes responsivo e eficiente, desenvolvido util
 
 ## 📂 Estrutura do Projeto
 ```
-/qrcode-generator
-│── /src
-│    ├── App.jsx (componente principal)
-│    ├── /components
-│    │   ├── QRCodeForm.jsx (entrada do link)
-│    │   ├── QRCodeDisplay.jsx (exibição e download do QR Code)
-│── /public
+/link-to-qrCode
+│── .gitignore
+│── eslint.config.js
 │── index.html
-│── vite.config.js
 │── package.json
 │── README.md
+│── vite.config.js
+│── /public
+│    └── icons8-qr-code.gif
+│── /src
+│    ├── App.css
+│    ├── App.jsx
+│    ├── index.css
+│    ├── main.jsx
+│    ├── /assets
+│    │   ├── react.svg
+│    │   └── /images
+│    │       └── logo-branca.png
+│    └── /components
+│        ├── QRCodeDownload.jsx
+│        ├── QRCodeForm.jsx
+│        └── QRCodeGenerator.jsx
 ```
 
 ## 🛠️ Como Executar o Projeto
@@ -48,8 +59,8 @@ Isso abrirá o projeto em `http://localhost:5173`.
 ✅ Interface responsiva e intuitiva  
 ✅ Rápida execução devido ao Vite  
 
-## 📸 Demonstração (Opcional)
-_Adicione aqui capturas de tela ou GIFs demonstrando o funcionamento do projeto._
+## 📸 Demonstração
+![Demonstração do Projeto](src/assets/images/demonstracao.gif)
 
 ## 📌 Possíveis Melhorias Futuras
 - Opção de download em outros formatos (PNG, SVG)
