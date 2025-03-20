@@ -60,7 +60,8 @@ Isso abrirá o projeto em `http://localhost:5173`.
 ✅ Rápida execução devido ao Vite  
 
 ## 📸 Demonstração
-![Demonstração do Projeto](src/assets/images/demonstracao.gif)
+![Demonstração do Projeto](src/assets/images/demonstracao.gif)  
+Link do projeto no vercel: https://link-to-qr-code.vercel.app/
 
 ## 📌 Possíveis Melhorias Futuras
 - Opção de download em outros formatos (PNG, SVG)
@@ -69,6 +70,3 @@ Isso abrirá o projeto em `http://localhost:5173`.
 
 ## 🤝 Contribuição
 Sinta-se à vontade para contribuir! Abra uma **issue** ou envie um **pull request** para melhorias.
-
-## 📜 Licença
-Este projeto está sob a [MIT License](LICENSE).
