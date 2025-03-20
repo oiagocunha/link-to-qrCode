@@ -61,6 +61,7 @@ Isso abrirá o projeto em `http://localhost:5173`.
 
 ## 📸 Demonstração
 ![Demonstração do Projeto](src/assets/images/demonstracao.gif)
+Link do projeto no vercel: https://link-to-qr-code.vercel.app/
 
 ## 📌 Possíveis Melhorias Futuras
 - Opção de download em outros formatos (PNG, SVG)
