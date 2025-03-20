@@ -69,6 +69,3 @@ Isso abrirá o projeto em `http://localhost:5173`.
 
 ## 🤝 Contribuição
 Sinta-se à vontade para contribuir! Abra uma **issue** ou envie um **pull request** para melhorias.
-
-## 📜 Licença
-Este projeto está sob a [MIT License](LICENSE).
