@@ -33,7 +33,7 @@ div.container {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100dvh;
+  height: 60dvh;
   width: 50%;
   background-color: #ffffff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -96,12 +96,14 @@ button.btn.btn-success.mt-3 {
   img {
     width: 150px;
     height: 100px;
+    margin-top: 10px;
   }
 
   div.container {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 90dvh;
     padding: 1rem;
+    margin-bottom: 10px;
   }
 
   h1 {
@@ -150,7 +152,7 @@ button.btn.btn-success.mt-3 {
   }
 
   div.container {
-    width: 90%;
+    width: 80%;
     height: auto;
     padding: 2rem;
   }
@@ -238,53 +240,62 @@ button.btn.btn-success.mt-3 {
   }
 }
 
-@media (max-height: 600px) {
-  div.container {
+@media (max-height: 650px) {
+  div.container.text-center {
     height: auto;
     padding: 1rem;
+    width: 90%;
+    margin-bottom: 10px;
+    flex-direction: row;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
+    text-align: center;
   }
 
   form.my-3 {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
+    width: 100%;
   }
 
-  div.container {
-    && form {
-      && input.form-control {
-        width: 50%;
-        margin: 0 auto;
+  input.form-control {
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 0.9rem;
+  }
 
-      }
-
-      && button.btn {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-      }
-    }
+  button.btn {
+    width: 80%;
+    font-size: 0.9rem;
+    padding: 8px;
+    margin: 0 auto;
   }
 
   img {
-    width: 200px;
-    height: 120px;
+    width: 20%;
+    height: 100px;
+    margin-top: 10px;
   }
 
-  div.text-center.mt-4 {
+  div.text-center {
+    display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
   }
 
-  div.text-center.mt-4 button {
-    width: 100%;
+  div.text-center button {
+    width: 85%;
     height: 45px;
+  }
+
+  div#qrcode canvas {
+    width: 140px !important;
+    height: 140px !important;
   }
 }
