@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -44,6 +45,7 @@ h1 {
   font-size: 2rem;
   color: #333;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 button {
@@ -86,6 +88,7 @@ div.text-center {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 button.btn.btn-success.mt-3 {
@@ -116,22 +119,10 @@ button.btn.btn-success.mt-3 {
     gap: 8px;
   }
 
-  div.container {
-    && form {
-      && input.form-control {
-        width: 50%;
-        margin: 0 auto;
-
-      }
-
-      && button.btn {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-      }
-    }
+  div.container form input.form-control,
+  div.container form button.btn {
+    width: 50%;
+    margin: 0 auto;
   }
 
   div.text-center.mt-4 {
@@ -163,22 +154,10 @@ button.btn.btn-success.mt-3 {
     gap: 10px;
   }
 
-  div.container {
-    && form {
-      && input.form-control {
-        width: 50%;
-        margin: 0 auto;
-
-      }
-
-      && button.btn {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-      }
-    }
+  div.container form input.form-control,
+  div.container form button.btn {
+    width: 50%;
+    margin: 0 auto;
   }
 
   div.text-center.mt-4 {
@@ -210,22 +189,10 @@ button.btn.btn-success.mt-3 {
     gap: 10px;
   }
 
-  div.container {
-    && form {
-      && input.form-control {
-        width: 50%;
-        margin: 0 auto;
-
-      }
-
-      && button.btn {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-      }
-    }
+  div.container form input.form-control,
+  div.container form button.btn {
+    width: 50%;
+    margin: 0 auto;
   }
 
   div.text-center.mt-4 {
@@ -253,6 +220,7 @@ button.btn.btn-success.mt-3 {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
     text-align: center;
+    width: 100%;
   }
 
   form.my-3 {
